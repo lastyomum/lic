@@ -2,14 +2,15 @@
 <input id="turd">
 <a href="https://www.google.com/search?q=Rick%20Astley" onclick="return CheckPassword();">Enter</a>
 <script>
+  function CheckPassword() {
   var password = getElementById("turd")
   var text = password.value 
-  function CheckPassword() {
+  
 if(text == "yomumisfat") {
  
  return true; 
 }
     alert("Incorrect password"):
     return false;
-  
+  }
   </script>
